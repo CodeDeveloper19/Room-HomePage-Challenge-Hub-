@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 12px;
+}
+
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+
+.body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.part1{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.part1_1{
+    background-image: url("Images/desktop-image-hero-1.jpg");
+    background-size: cover;
+    height: 100%;
+}
+
+.part1_2{
+
+}
+
+.part2{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.part2_1{
+    flex: 1;
+    background-image: url("Images/image-about-dark.jpg");
+    background-size: contain;
+}
+
+.part2_2{
+    flex: 1.5;
+    padding: 4% 2% 0 2%;
+}
+
+.part2_2 h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.part2_2 p{
+    color: rgba(0, 0, 0, 0.3);
+    height: 100px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.part2_3{
+    flex: 1;
+    background-image: url("Images/image-about-light.jpg");
+    background-size: cover;
+}
