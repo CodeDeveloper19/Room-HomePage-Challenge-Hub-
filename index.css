@@ -10,11 +10,6 @@ body{
     font-size: 12px;
 }
 
-/* img{
-    height: 100%;
-    width: 100%;
-} */
-
 .body{
     width: 100%;
     height: 100%;
@@ -30,12 +25,45 @@ body{
 
 .part1_1{
     background-image: url("Images/desktop-image-hero-1.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     height: 100%;
+    width: 60%;
 }
 
 .part1_2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.part1_2_1{
+    height: 83%;
+    padding: 10% 10% 10% 10%;
+}
+
+.part1_2_2{
+    height: 17%;
+    width: 31.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#left, #right{
+    width: 50%;
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+#left:hover, #right:hover{
+    background-color: hsl(0, 0%, 27%);
+    cursor: pointer;
 }
 
 .part2{
@@ -47,29 +75,35 @@ body{
 .part2_1{
     flex: 1;
     background-image: url("Images/image-about-dark.jpg");
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 .part2_2{
     flex: 1.5;
     padding: 4% 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
 }
 
 .part2_2 h3{
     font-size: 16px;
     margin-bottom: 10px;
     letter-spacing: 4px;
+    width: 100%;
+    text-align: left;
 }
 
 .part2_2 p{
     color: rgba(0, 0, 0, 0.3);
     height: 100px;
-    line-height: 18px;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .part2_3{
     flex: 1;
     background-image: url("Images/image-about-light.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
 }
