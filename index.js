@@ -31,6 +31,16 @@ document.getElementById("hamburger").addEventListener("click", () => {
     document.getElementById("nav2").style.display = "flex";
 })
 
+document.getElementById("part1_2_1_1").addEventListener("mouseover", () => {
+    document.getElementById("arrow").style.fill = "#A1A1A1";
+    document.getElementById("part1_2_1_1").style.color = "#A1A1A1"
+})
+
+document.getElementById("part1_2_1_1").addEventListener("mouseout", () => {
+    document.getElementById("arrow").style.fill = "#000";
+    document.getElementById("part1_2_1_1").style.color = "#000"
+})
+
 let jmediaquery = window.matchMedia( "(min-width: 499px)" );
 
 setInterval(()=> {

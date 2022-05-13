@@ -139,18 +139,11 @@ li:hover{
     letter-spacing: 10px;
 }
 
-#part1_2_1_1:hover{
-    cursor: pointer;
-    color: hsl(0, 0%, 63%);
-}
 
-/* .arrow{
+.arrow{
     margin-left: 20px;
 }
 
-.arrow:hover{
-    fill: #A1A1A1;
-} */
 
 .part1_2_2{
     height: 70px;
