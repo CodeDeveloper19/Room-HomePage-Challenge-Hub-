@@ -45,9 +45,13 @@ body{
     flex-direction: row;
 }
 
-nav{
+#nav1{
     height: 100%;
     width: 250px;
+}
+
+#nav2{
+    display: none;
 }
 
 ul{
@@ -86,7 +90,7 @@ li:hover{
     } */
 }
 
-.logo{
+#logo1{
     height: 100%;
     width: 170px;
     display: flex;
@@ -95,16 +99,22 @@ li:hover{
     font-size: 30px;
 }
 
+#logo2{
+    display: none;
+}
+
 .part1_2{
     width: 40%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .part1_2_1{
-    height: 80%;
-    padding: 20% 20% 10% 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15% 0 15%;
 }
 
 .part1_2_1 h2{
@@ -134,20 +144,22 @@ li:hover{
     color: hsl(0, 0%, 63%);
 }
 
-.arrow{
+/* .arrow{
     margin-left: 20px;
 }
 
 .arrow:hover{
     fill: #A1A1A1;
-}
+} */
 
 .part1_2_2{
-    height: 100px;
+    height: 70px;
     width: 31.5%;
     display: flex;
     flex-direction: row;
     justify-content: left;
+    position: absolute;
+    bottom: 0;
 }
 
 #left, #right{
@@ -180,11 +192,10 @@ li:hover{
 
 .part2_2{
     flex: 1.5;
-    padding: 4% 2% 0 2%;
+    padding: 0 3% 0 3%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: top;
+    justify-content: center;
 }
 
 .part2_2 h3{
@@ -197,9 +208,11 @@ li:hover{
 
 .part2_2 p{
     color: rgba(0, 0, 0, 0.3);
-    height: 100px;
+    min-height: 60px;
     font-size: 13px;
     line-height: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .part2_3{

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Room HomePage</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaqueries.css">
     <script defer src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +19,25 @@
             <div class="part1_1">
                 <img id="image" src="Images/desktop-image-hero-1.jpg">
                 <div class="header">
-                    <div class="logo">room</div>
-                    <nav>
+                    <div id="logo1">room</div>
+                    <div id="logo2">
+                        <div class="hide">
+                            <img src="Images/icon-hamburger.svg" id="hamburger">
+                        </div>
+                        <h2>room</h2>
+                    </div>
+                    <nav id="nav1">
+                        <ul>
+                            <li>home</li>
+                            <li>shop</li>
+                            <li>about</li>
+                            <li>contact</li>
+                        </ul>
+                    </nav>
+                    <nav id="nav2">
+                        <div class="hide2">
+                            <img src="Images/icon-close.svg" id="close">
+                        </div>
                         <ul>
                             <li>home</li>
                             <li>shop</li>

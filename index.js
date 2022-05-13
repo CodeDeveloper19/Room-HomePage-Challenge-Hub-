@@ -23,3 +23,20 @@ document.getElementById("right").addEventListener("click", () => {
     document.getElementById("paragraph").textContent = listOfParagraphs[currentSlide];
 })
 
+document.getElementById("close").addEventListener("click", () => {
+    document.getElementById("nav2").style.display = "none";
+})
+
+document.getElementById("hamburger").addEventListener("click", () => {
+    document.getElementById("nav2").style.display = "flex";
+})
+
+let jmediaquery = window.matchMedia( "(min-width: 499px)" );
+
+setInterval(()=> {
+    if (jmediaquery.matches) {
+        document.getElementById("nav2").style.display = "none";
+    }
+}, 1)
+
+
