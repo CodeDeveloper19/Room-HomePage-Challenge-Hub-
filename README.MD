@@ -14,7 +14,6 @@ This is a solution to the [Room homepage challenge on Frontend Mentor](https://w
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -34,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-plain-html-css-and-javascript-BJuwsqJD9)
-- Live Site URL: [Add live site URL here](https://room-homepager.netlify.app/)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-plain-html-css-and-javascript-BJuwsqJD9)
+- Live Site URL: [Live Site](https://room-homepager.netlify.app/)
 
 ## My process
 
@@ -66,7 +65,7 @@ Learning of Bootstrap would have also reduced the number of media queries I woul
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/css/css3_object-fit.asp) - This helped me understand and apply the use of object-fit in the project.
+- [W3schools object-fit CSS attribute](https://www.w3schools.com/css/css3_object-fit.asp) - This helped me understand and apply the use of object-fit in the project.
 
 ## Author
 
