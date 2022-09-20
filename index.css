@@ -121,19 +121,23 @@ li:hover{
     flex-direction: row;
 }
 
-#part1_2_1_1 h4{
+#part1_2_1_1 p{
     display: flex;
-    align-items: center;
     letter-spacing: 10px;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
 }
 
-
-.arrow{
+.arrow-container{
     margin-left: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.part1_2_2{
+.part1_2_2, .temp{
     height: 70px;
     width: 33%;
     display: flex;
@@ -141,6 +145,12 @@ li:hover{
     justify-content: left;
     position: absolute;
     bottom: 0;
+}
+
+.temp{
+    position: relative;
+    bottom: 70px;
+    margin-left: 67%;
 }
 
 #left, #right{
@@ -152,6 +162,11 @@ li:hover{
     align-items: center;
     font-size: 70px;
     font-weight: 100;
+}
+
+#left img, #right img{
+    width: 14px;
+    height: 24px;
 }
 
 #left:hover, #right:hover{

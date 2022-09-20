@@ -2,6 +2,7 @@
     .body{
         overflow-y: scroll;
         height: auto;
+        width: fit-content;
     }
 
     .part1{
@@ -14,12 +15,14 @@
     }
 
     .part1_2{
-        position: unset;
         width: 100%;
     }
 
+    .part1_2_1{
+        padding: 10% 15% 10% 15%;
+    }
+
     .part1_2_2{
-        top: 430px;
         right: 0;
     }
 
@@ -33,7 +36,7 @@
     }
 
     .part2_2{
-        padding: 0 15% 0 15%;
+        padding: 10% 15% 10% 15%;
         align-items: center;
         flex: 1;
     }
@@ -115,7 +118,7 @@
     .part2_2 h3{
         font-size: 16px;
     }
-    #part1_2_1_1 h4{
+    #part1_2_1_1 p{
         font-size: 10px;
     }
 }
@@ -130,7 +133,7 @@
     .part2_2 h3{
         font-size: 14px;
     }
-    #part1_2_1_1 h4{
+    #part1_2_1_1 p{
         font-size: 8px;
     }
     ul{
